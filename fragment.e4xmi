@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_skemgACnEeqcFbuGdlgH1Q">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_t78IsACnEeqcFbuGdlgH1Q" featurename="menuContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_AgHOgACoEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.menucontribution.0" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_8tVrAACoEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.menu" label="MyThaiStarExplanation">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_DdizgACpEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handledmenuitem.dependencyinjection" label="Dependency Injection" command="_EUbGQACrEeqcFbuGdlgH1Q"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_j3ZPsACpEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.menuseparator.1"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_kkzIQACpEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handledmenuitem.serverside" label="Server Side" command="_NQ0ZgACrEeqcFbuGdlgH1Q"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_HHuJwACqEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.menuseparator.2"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_H-k5QACqEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handledmenuitem.clientside" label="Client Side" command="_Owif0ACrEeqcFbuGdlgH1Q"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_JkH6wACqEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.menuseparator.3"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_KITl4ACqEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handledmenuitem.logiclayer" label="Logic Layer" command="_QRWyUACrEeqcFbuGdlgH1Q"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_q_ZXsACqEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.menuseparator.4"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_rhn7AACqEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handledmenuitem.testit" label="Test It" command="_NGYygACoEeqcFbuGdlgH1Q"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_G0RQsAR4Eeq-g_oXeHIw_Q" elementId="mythaistar.explanation.menuseparator.5"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_YoWkYACpEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handledmenuitem.transportobjects" label="Transfer Object" command="_KeuFUACrEeqcFbuGdlgH1Q"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="__rk6QAR4Eeq-g_oXeHIw_Q" elementId="mythaistar.explanation.menuseparator.6"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_1di_AASDEeqMEt1V0L4EOw" elementId="mythaistar.explanation.handledmenuitem.entitytransferobject" label="Entity Transfer Object" command="_5DcusASDEeqMEt1V0L4EOw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_CotYwASEEeqMEt1V0L4EOw" elementId="mythaistar.explanation.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_AFvtwAR5Eeq-g_oXeHIw_Q" elementId="mythaistar.explanation.handledmenuitem.compositetransferobject" label="Composite Transfer Object" command="_MZ2jsAR5Eeq-g_oXeHIw_Q"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_Je4gUACoEeqcFbuGdlgH1Q" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_NGYygACoEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.command.testit" commandName="Test it"/>
+    <elements xsi:type="commands:Command" xmi:id="_EUbGQACrEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.command.dependencyinjection" commandName="Dependency Injection"/>
+    <elements xsi:type="commands:Command" xmi:id="_KeuFUACrEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.command.transportobjects" commandName="Transport Objects"/>
+    <elements xsi:type="commands:Command" xmi:id="_NQ0ZgACrEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.command.serverside" commandName="Server Side"/>
+    <elements xsi:type="commands:Command" xmi:id="_Owif0ACrEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.command.clientside" commandName="Client Side"/>
+    <elements xsi:type="commands:Command" xmi:id="_QRWyUACrEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.command.logiclayer" commandName="Logic Layer"/>
+    <elements xsi:type="commands:Command" xmi:id="_MZ2jsAR5Eeq-g_oXeHIw_Q" elementId="mythaistar.explanation.command.compositetransferobject" commandName="Composite Transfer Object"/>
+    <elements xsi:type="commands:Command" xmi:id="_5DcusASDEeqMEt1V0L4EOw" elementId="mythaistar.explanation.command.entitytransferobject" commandName="Entity Transfer Object"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_tj-fMACoEeqcFbuGdlgH1Q" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_vBtogACoEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handler.0" contributionURI="bundleclass://myThaiStar.explanation/myThaiStar.explanation.handlers.TestHandler" command="_NGYygACoEeqcFbuGdlgH1Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_6yXEsACrEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handler.1" contributionURI="bundleclass://myThaiStar.explanation/myThaiStar.explanation.handlers.DependencyInjectionHandler" command="_EUbGQACrEeqcFbuGdlgH1Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_-DW7YACrEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handler.2" contributionURI="bundleclass://myThaiStar.explanation/myThaiStar.explanation.handlers.TransportObjectHandler" command="_KeuFUACrEeqcFbuGdlgH1Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_BUkNcACsEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handler.3" contributionURI="bundleclass://myThaiStar.explanation/myThaiStar.explanation.handlers.ServerSideHandler" command="_NQ0ZgACrEeqcFbuGdlgH1Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_EfGPwACsEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handler.4" contributionURI="bundleclass://myThaiStar.explanation/myThaiStar.explanation.handlers.ClientSideHandler" command="_Owif0ACrEeqcFbuGdlgH1Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_HZLbQACsEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.handler.5" contributionURI="bundleclass://myThaiStar.explanation/myThaiStar.explanation.handlers.LogicLayerHandler" command="_QRWyUACrEeqcFbuGdlgH1Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_PXrmwAR5Eeq-g_oXeHIw_Q" elementId="mythaistar.explanation.handler.7" contributionURI="bundleclass://myThaiStar.explanation/myThaiStar.explanation.handlers.CompositeTransferObjectHandler" command="_MZ2jsAR5Eeq-g_oXeHIw_Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_8wBuIASDEeqMEt1V0L4EOw" elementId="mythaistar.explanation.handler.6" contributionURI="bundleclass://myThaiStar.explanation/myThaiStar.explanation.handlers.EntityTransferObjectHandler" command="_5DcusASDEeqMEt1V0L4EOw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_XIapYACuEeqcFbuGdlgH1Q" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_YaSPAACwEeqcFbuGdlgH1Q" elementId="mythaistar.explanation.partdescriptor.guideinformation" label="Guide Information" closeable="true" contributionURI="bundleclass://myThaiStar.explanation/myThaiStar.explanation.views.GuideInformation">
+      <tags>View</tags>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
