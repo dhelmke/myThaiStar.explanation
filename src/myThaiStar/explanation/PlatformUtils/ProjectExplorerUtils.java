@@ -62,7 +62,6 @@ public class ProjectExplorerUtils {
                 projectfiles = findAllProjectFiles(project);
                 for (IResource resource : projectfiles) {
                     if (resource.getName().contains(fileName)){
-                    	System.out.println(fileName+resource.getName());
                     	foundfiles.add((IFile)resource);                    
                     }
                 }
@@ -82,14 +81,16 @@ public class ProjectExplorerUtils {
 		}		
 		return false;		
 	}
-
+	
 	public static boolean openFileInEditor(List<IFile> filesToOpen) {
 		for(IFile filetoOpen:filesToOpen) {	        
 	           IFileStore fileStore = EFS.getLocalFileSystem().getStore(filetoOpen.getLocationURI());
 	           IWorkbenchPage page = PlatformUI.getWorkbench().getActiveWorkbenchWindow().getActivePage();
 	           try {
-	               IDE.openEditorOnFileStore( page, fileStore );	               
-				   IViewPart viewPart = page.findView("org.eclipse.ui.navigator.ProjectExplorer");
+	        	   PlatformUI.getWorkbench().getActiveWorkbenchWindow().getActivePage().showView("org.eclipse.ui.navigator.ProjectExplorer");
+	        	   PlatformUI.getWorkbench().getActiveWorkbenchWindow().getActivePage().showView("mythaistar.explanation.partdescriptor.guideinformation");
+	        	   IDE.openEditorOnFileStore( page, fileStore );	               
+				   IViewPart viewPart = page.findView("org.eclipse.ui.navigator.ProjectExplorer");				  
 				   ISelectionProvider selProvider = viewPart.getSite().getSelectionProvider();
 				   selProvider.setSelection(new StructuredSelection(filetoOpen));				
 							
